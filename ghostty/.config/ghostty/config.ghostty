@@ -1,6 +1,6 @@
 # Font configuration
 font-family = "Hasklug Nerd Font Mono"
-font-size = 18
+font-size = 16
 
 # Window settings
 window-padding-x = 14
