@@ -77,13 +77,13 @@ fi
 # Update
 OS=$(uname)
 
-if command -v apt >&2; then
+if command -v apt &>/dev/null; then
   PKGMGR=apt
 fi
-if command -v pacman >&2; then
+if command -v pacman &>/dev/null; then
   PKGMGR=pacman
 fi
-if command -v xbps-install >&2; then
+if command -v xbps-install &>/dev/null; then
   PKGMGR=xbps
 fi
 
