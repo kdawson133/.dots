@@ -76,16 +76,16 @@ fi
 
 # Update
 OS=$(uname)
-if [[ command -v apt >/dev/null 2>&1 ]]; then
+
+if command -v apt >&2; then
   PKGMGR=apt
 fi
-if [[ command -v pacman >/dev/null 2>&1 ]]; then
+if command -v pacman >&2; then
   PKGMGR=pacman
 fi
-if [[ command -v xbps-install >/dev/null 2>&1 ]]; then
+if command -v xbps-install >&2; then
   PKGMGR=xbps
 fi
-
 
 if [[ $OS == 'Darwin' ]]; then
   alias update="brew update && brew upgrade --no-ask --greedy"
