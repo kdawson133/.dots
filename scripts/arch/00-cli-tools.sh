@@ -1,0 +1,22 @@
+#!/bin/bash
+CLI=(
+  zsh
+  neovim
+  stow
+  fzf
+  zoxide
+  starship
+  bat
+  eza
+  ripgrep
+  fd
+  helix
+  ttf-nerd-fonts-symbols-mono
+  nodejs
+  npm
+  unzip
+  wl-clipboard
+  xclip
+  xsel
+)
+sudo pacman -S ${CLI[@]} --noconfirm --needed
