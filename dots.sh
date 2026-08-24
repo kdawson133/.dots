@@ -1,5 +1,6 @@
 #!/bin/bash
 DOTS=(
+  alacritty
   bat
   eza
   ghostty
