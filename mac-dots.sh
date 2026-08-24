@@ -1,7 +1,7 @@
 #!/bin/bash
 DOTS=(
   aerospace
-  karabina
+  karabiner
   local-bin
 )
 stow ${DOTS[@]}
