@@ -15,7 +15,8 @@ sudo xbps-install -y curl wget wl-clipboard xsel xclip nodejs bat eza base-devel
 sudo xbps-install -y font-Hasklig nerd-fonts-otf nerd-fonts-symbols-ttf
 
 # Install Nvidia Driver
-sudo xbps-install -y nvidia
+# Now located in 01-nvidia.sh
+# sudo xbps-install -y nvidia
 
 # Add Services
 #sudo ln -s /etc/sv/gdm /var/service
