@@ -15,6 +15,7 @@ CLI=(
   nodejs
   npm
   unzip
+  which
   wl-clipboard
   xclip
   xsel
