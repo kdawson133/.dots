@@ -5,6 +5,7 @@ WM=(
   alacritty
   ghostty
   noctalia
+  xwayland-satellite
   accountsservice
   greetd
   playerctl
