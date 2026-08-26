@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir -p ~/.local/share/gnupg
+chmod 700 ~/.local/share/gnpg
 EXTRA_CASKS=(
   zed
   ghostty
@@ -9,6 +11,7 @@ EXTRA_CASKS=(
 sudo pacman -S ${EXTRA_CASKS[@]} --noconfirm --needed
 
 AUR_CASKS=(
+  1password
   brave-origin-bin
   plex-desktop
   plexamp-bin
