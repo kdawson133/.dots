@@ -80,3 +80,5 @@ export FZF_DEFAULT_OPS="$FZF_DEFAULT_OPS \
   --color=separator:#ff9e64 \
   --color=spinner:#ff007c \
 "
+# Homebrew
+export HOMEBREW_NO_ENV_HINTS=1
