@@ -89,8 +89,8 @@ fi
 
 if [[ $OS == 'Darwin' ]]; then
   alias update="brew update && brew upgrade --no-ask --greedy"
-  alias ffi="brew search --formula // | fzf --multi --preview 'brew info {}' | xargs -ro brew --formula install"
-  alias fci="brew search --cask // | fzf --multi --preview 'brew info {}' | xargs -ro brew --cask install"
+  alias ffi="brew search --formula // | fzf --multi --preview 'brew info {}' | xargs -ro brew install --formula"
+  alias fci="brew search --cask // | fzf --multi --preview 'brew info {}' | xargs -ro brew install --cask"
   alias ffr="brew list --formula | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --formula"
   alias fcr="brew list --cask | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --cask"
 elif [[ $OS == 'Linux' ]]; then
