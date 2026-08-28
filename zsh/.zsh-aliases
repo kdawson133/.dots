@@ -89,11 +89,17 @@ fi
 
 if [[ $OS == 'Darwin' ]]; then
   alias update="brew update && brew upgrade --no-ask --greedy"
+  alias ffi="brew search --formula // | fzf --multi --preview 'brew info {}' | xargs -ro brew --formula install"
+  alias fci="brew search --cask // | fzf --multi --preview 'brew info {}' | xargs -ro brew --cask install"
+  alias ffr="brew list --formula | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --formula"
+  alias fcr="brew list --cask | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --cask""
 elif [[ $OS == 'Linux' ]]; then
   if [[ $PKGMGR == 'apt' ]]; then
     alias update="sudo apt update && sudo apt upgrade -y"
   elif [[ $PKGMGR == 'pacman' ]]; then
     alias update="sudo pacman -Syu --noconfirm"
+    alias pmi="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+    alias pmr="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
   elif [[ $PKGMGR == 'xbps' ]]; then
     alias update="sudo xbps-install -ySu"
   fi
