@@ -1,4 +1,5 @@
 dankcolors
 zed/.config/zed/themes/
+zed/.config/zed/prompts/
 alacritty/.config/alacritty/dank-theme.toml
 nvim/.config/nvim/lazy-lock.json
