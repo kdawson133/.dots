@@ -92,7 +92,7 @@ if [[ $OS == 'Darwin' ]]; then
   alias ffi="brew search --formula // | fzf --multi --preview 'brew info {}' | xargs -ro brew --formula install"
   alias fci="brew search --cask // | fzf --multi --preview 'brew info {}' | xargs -ro brew --cask install"
   alias ffr="brew list --formula | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --formula"
-  alias fcr="brew list --cask | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --cask""
+  alias fcr="brew list --cask | fzf --multi --preview 'brew info {}' | xargs -ro brew remove --cask"
 elif [[ $OS == 'Linux' ]]; then
   if [[ $PKGMGR == 'apt' ]]; then
     alias update="sudo apt update && sudo apt upgrade -y"
