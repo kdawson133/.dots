@@ -103,7 +103,8 @@ if [ ! -d "$undodir" ]; then
   mkdir "$undodir"
 fi
 
-# NOTE: Source .zsh-aliases file
-if [[ -f "$HOME/.zsh-aliases" ]]; then
-  source $HOME/.zsh-aliases
+# NOTE: Source .aliases.zsh file
+if [[ -f "$HOME/.aliases.zsh" ]]; then
+  source $HOME/.aliases.zsh
+
 fi
