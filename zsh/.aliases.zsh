@@ -57,10 +57,10 @@ alias upupup='cd ../../..'
 
 # Misc
 alias z='cd'
-alias lvim='NVIM_APPNAME=lazyvim nvim'
-alias vim='nvim'
-alias vimf='nvim $(fzf)'
-alias cdf='z $(fzf)'
+alias lnv='NVIM_APPNAME=lazyvim nvim'
+alias nv='nvim'
+alias nvf='nvim $(fzf)'
+alias zf='z $(fzf)'
 alias mkdir='mkdir -p'
 alias hx='helix'
 

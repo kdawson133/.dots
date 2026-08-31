@@ -55,7 +55,7 @@ export STARSHIP_CONFIG="$HOME"/.config/starship/starship.toml
 
 # FZF
 export FZF_DEFAULT_OPS="--extended"
-export FZF_DEFAULT_COMMAND="fd"
+export FZF_DEFAULT_COMMAND="fd --hidden --follow"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPS="$FZF_DEFAULT_OPS \
   --highlight-line \
