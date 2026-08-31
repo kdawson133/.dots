@@ -8,10 +8,10 @@
 # alias l.='ls -a --color=auto'
 
 # Lising using EZA
-alias ls='eza --icons'
-alias ll='eza -la --icons'
-alias ld='eza -D --icons'
-alias l.='eza -a --icons'
+alias l='eza --icons=always'
+alias ll='eza -la --icons=always'
+alias ld='eza -D --icons=always'
+alias l.='eza -a --icons=always'
 
 # Tree
 alias tree='tree -a'
