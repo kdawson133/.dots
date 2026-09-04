@@ -1,6 +1,11 @@
 # NOTE: If not running interactively, don't do anything!
 [[ $- != *i* ]] && return
 
+# NOTE: If running in tty execute bash
+if [ "$XDG_SESSION_TYPE" = "tty" ]; then
+  exec bash
+fi
+
 # NOTE: Set Cursor Style
 # 0 ==> default
 # 1 ==> blinking block (my default)
