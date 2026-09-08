@@ -101,7 +101,9 @@ elif [[ $OS == 'Linux' ]]; then
   elif [[ $PKGMGR == 'pacman' ]]; then
     alias update="sudo pacman -Syu --noconfirm"
     alias pmi="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+    alias yi="yay -Slq | fzf --multi --preview 'yay -Si {1}' | xargs -ro yay -S"
     alias pmr="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
+    alias yr="yay -Qq | fzf --multi --preview ''yay -Qi {1} | xargs -ro yay -Rns"
     alias yi="yay -Slq | fzf --multi --preview 'yay -Si {1}' | xargs -ro yay -S"
     alias yr="yay -Qq | fzf --multi --preview 'yay -Qi {1}' | xargs -ro yay -Rns"
   elif [[ $PKGMGR == 'xbps' ]]; then
