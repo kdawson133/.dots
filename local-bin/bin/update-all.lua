@@ -2,8 +2,8 @@
 -- NOTE: Hardware Machines
 -- print('\nUPDATING ==> Eris')
 -- os.execute("ssh -t eris 'brew update && brew upgrade --greedy'")
-print('\nUPDATING ==> Vesta')
-os.execute("ssh -t vesta 'sudo pacman -Syyu --noconfirm'")
+-- print('\nUPDATING ==> Vesta')
+-- os.execute("ssh -t vesta 'sudo pacman -Syyu --noconfirm'")
 print('\nUPDATING ==> Europa')
 os.execute("ssh -t europa 'sudo pacman -Syyu --noconfirm'")
 print('\nUPDATING ==> Ceres')
