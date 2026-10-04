@@ -62,7 +62,6 @@ alias vim='nvim'
 alias vimf='nvim $(fzf)'
 alias zf='z $(fzf)'
 alias mkdir='mkdir -p'
-alias hx='helix'
 
 # yt-dlp
 alias ydl='yt-dlp'
