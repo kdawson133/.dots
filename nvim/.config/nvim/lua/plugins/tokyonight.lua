@@ -3,7 +3,11 @@ return {
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
-    opts = {},
+    opts = {
+      styles = {
+        comments = { italic = false },
+      },
+    },
     config = function ()
       vim.cmd.colorscheme 'tokyonight'
     end,
