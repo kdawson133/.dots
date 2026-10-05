@@ -81,4 +81,7 @@ vim.opt.gdefault = true
 -- Lazy redraw
 vim.o.lazyredraw = false
 
+-- Show whitespace characters
+vim.opt.list = true
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
