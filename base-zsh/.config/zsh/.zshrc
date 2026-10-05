@@ -98,5 +98,5 @@ fi
 
 # NOTE: Source .zsh_aliases file
 if [[ -f "$ZDOTDIR/.zsh_aliases" ]]; then
-  source $HOME/.zsh_aliases
+  source $ZDOTDIR/.zsh_aliases
 fi
