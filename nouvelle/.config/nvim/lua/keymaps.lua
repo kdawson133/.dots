@@ -22,8 +22,8 @@ vim.keymap.set('n', '<C-Q>', '<cmd>:wq<CR>')
 vim.keymap.set('n', '<C-s>', '<cmd>:w<CR>')
 
 -- search highlight remove / normal mode
-vim.keymap.set('i', '<C-c>', '<Esc>')
-vim.keymap.set("n", "<C-c>", ":nohl<CR>", { desc = "Clear search highlighting", silent = true })
+vim.keymap.set('i', '<C-h>', '<Esc>')
+vim.keymap.set("n", "<C-h>", ":nohl<CR>", { desc = "Clear search highlighting", silent = true })
 
 -- move normally between wrapped lines
 vim.keymap.set('n', 'k', 'v:count == 0 ? "gk" : "k"', { expr = true, silent = true })

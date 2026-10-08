@@ -12,6 +12,7 @@ vim.pack.add({
   "https://github.com/MeanderingProgrammer/render-markdown.nvim",
   "https://github.com/akinsho/bufferline.nvim",
   "https://github.com/folke/which-key.nvim",
+  "https://github.com/stevearc/oil.nvim",
 })
 -- tokyonight
 require('tokyonight').setup({
@@ -56,4 +57,6 @@ require('which-key').setup({
   delay = 500,
   icons = { mappings = vim.g.have_nerd_font },
 })
-
+-- oil
+require('oil').setup()
+vim.keymap.set('n', '-', "<Cmd>Oil<CR>", { desc = "Browse files from here" })
