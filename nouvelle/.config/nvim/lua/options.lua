@@ -1,4 +1,4 @@
-vim.g.netrw_banner = 0
+-- vim.g.netrw_banner = 0
 vim.opt.termguicolors = true
 vim.opt.autoread = true
 

@@ -11,7 +11,7 @@ vim.keymap.set('n', '<Leader>r', '<cmd>:ReloadConfig<CR>')
 vim.keymap.set('n', '<Leader>ws', '<cmd>:TrailSpaceTrim<CR>')
 
 -- open netrw file explorer
-vim.keymap.set('n', '<Leader>e', '<cmd>:Explore<CR>')
+-- vim.keymap.set('n', '<Leader>e', '<cmd>:Explore<CR>')
 
 -- update plugins
 vim.keymap.set('n', '<Leader>u', '<cmd>:lua vim.pack.update()<CR>')
