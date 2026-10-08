@@ -1,5 +1,6 @@
 -- vim.g.netrw_banner = 0
 vim.opt.termguicolors = true
+vim.opt.winborder = "rounded"
 vim.opt.autoread = true
 
 vim.opt.hlsearch = true
