@@ -2,7 +2,7 @@
 # NOTE: Aliases for ZSH
 
 # Listing using LS
-# alias ls='ls --color=auto'
+alias ls='ls --color=auto'
 # alias ll='ls -lah --color=auto'
 # alias ld='ls -d */'
 # alias l.='ls -a --color=auto'
