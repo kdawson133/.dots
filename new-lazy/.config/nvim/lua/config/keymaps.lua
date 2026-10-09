@@ -18,7 +18,7 @@ vim.keymap.set('n', '<Leader>u', '<cmd>:Lazy sync<CR>')
 
 -- close buffer / close file /  save file
 vim.keymap.set('n', '<C-b>', '<cmd>:w<CR><cmd>:bd<CR>')
-vim.keymap.set('n', '<C-Q>', '<cmd>:wq<CR>')
+vim.keymap.set('n', '<C-Q>', '<cmd>:wqa<CR>')
 vim.keymap.set('n', '<C-s>', '<cmd>:w<CR>')
 
 -- search highlight remove / normal mode
