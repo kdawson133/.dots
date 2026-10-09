@@ -33,4 +33,3 @@ vim.keymap.set("n", "<leader>od", function()
     vim.ui.open(vim.fn.expand("%"))
 end, { desc = "Open current file in default viewer" })
 
-
