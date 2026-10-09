@@ -10,6 +10,7 @@ vim.opt.smartcase = true
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.signcolumn = 'yes'
+vim.opt.cursorline = true
 
 vim.opt.autoindent = true
 vim.opt.smartindent = true
