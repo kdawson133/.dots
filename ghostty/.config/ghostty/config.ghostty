@@ -11,7 +11,7 @@ window-width = 80
 window-decoration = false
 background-opacity = 0.85
 background-blur = true
-
+quit-after-last-window-closed = true
 # Terminal settings
 term = xterm-256color
 
